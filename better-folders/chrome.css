@@ -1,0 +1,20 @@
+:root {
+  --tabgroup-folder-stroke-width: var(--mod-tabgroup-folder_stroke_width);
+}
+
+.tab-group-label-container:has(.tab-group-label[aria-label*="[1]"]) {
+  --zen-folder-stroke: var(--mod-tabgroup-folder_1_color);
+}
+
+.tab-group-label-container:has(.tab-group-label[aria-label*="[2]"]) {
+  --zen-folder-stroke: var(--mod-tabgroup-folder_2_color);
+}
+
+.tab-group-label-container:has(.tab-group-label[aria-label*="[3]"]) {
+  --zen-folder-stroke: var(--mod-tabgroup-folder_3_color);
+}
+
+.tab-group-folder-icon .back,
+.tab-group-folder-icon .front {
+  stroke-width: var(--tabgroup-folder-stroke-width) !important;
+}

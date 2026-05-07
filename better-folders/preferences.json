@@ -1,0 +1,27 @@
+[
+  {
+    "property": "mod.tabgroup.folder_stroke_width",
+    "label": "Folder stroke width",
+    "type": "string",
+    "defaultValue": "1.5px",
+    "placeholder": "e.g. 1px"
+  },
+  {
+    "property": "mod.tabgroup.folder_1_color",
+    "label": "Folder 1 color: Add [1] to folder name",
+    "type": "string",
+    "placeholder": "#ff4d4d"
+  },
+  {
+    "property": "mod.tabgroup.folder_2_color",
+    "label": "Folder 2 color: Add [2] to folder name",
+    "type": "string",
+    "placeholder": "#ff4d4d"
+  },
+  {
+    "property": "mod.tabgroup.folder_3_color",
+    "label": "Folder 3 color: Add [3] to folder name",
+    "type": "string",
+    "placeholder": "#ff4d4d"
+  }
+]
